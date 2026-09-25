@@ -75,10 +75,10 @@ def make_recommendation(label: str, occasion: str, temp: int, comfort: str):
         advice = "Prioritize easy movement and comfortable shoes so you can focus through the exam."
         reasons.append("Comfort matters during a long exam day.")
     elif occasion == "Campus hangout":
-        advice = "This is a relaxed choice for a social campus day. Pair it with shoes you can walk in."
+        advice = "This is a relaxed choice for a social campus day. Pair it with comfortable shoes to match."
         reasons.append("Its relaxed style works well for a hangout.")
     else:
-        advice = "This is a practical choice for lectures. Pair it with comfortable shoes for moving around campus."
+        advice = "This is a practical choice for lectures. Pair it with comfortable shoes that matches the style."
         reasons.append("It works for a regular class day.")
     if temp < 20:
         advice += " Bring a warm outer layer for the cool weather."

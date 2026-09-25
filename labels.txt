@@ -1,2 +1,2 @@
-0 Formal_wear
-1 Casual_wear
+0 Formal
+1 Casual
